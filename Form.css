@@ -1,0 +1,52 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #1a1f36, #181a29);
+  color: white;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+header {
+  padding: 40px;
+  background: linear-gradient(135deg, #0066ff, #00aaff);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+header h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.study-form {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: 40px auto;
+}
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #00aaff, #00ccff);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+button:hover {
+  background: linear-gradient(135deg, #00ccff, #00eeff);
+}
