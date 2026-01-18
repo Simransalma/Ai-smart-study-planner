@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Smart Study Planner</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <header>
+    <h1>🚀 AI Smart Study Planner</h1>
+    <p>Plan your study session with AI efficiency.</p>
+  </header>
+
+  <section class="study-form">
+    <h2>Enter Your Study Details</h2>
+    <form id="plannerForm">
+      <label for="subject">📚 Subject:</label>
+      <input type="text" id="subject" placeholder="e.g., Python Programming" required>
+      <label for="time">⏳ Time Available:</label>
+      <input type="text" id="time" placeholder="e.g., 2 hours, 5 days" required>
+      <label for="level">📖 Experience Level:</label>
+      <select id="level" required>
+        <option value="Beginner">Beginner</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Advanced">Advanced</option>
+      </select>
+      <button type="submit">📌 Generate Study Plan</button>
+    </form>
+  </section>
+  <div class="chat-container">
+    <div id="chatBox"></div>
+    <input type="text" id="userInput" placeholder="Ask the chatbot for study advice">
+    <button onclick="handleUserInput()">🚀 Chat</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
